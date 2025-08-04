@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Birthday Surprise for My</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bg-music" loop>
+    <source src="Sponge Cola - Kay Tagal Kitang Hinintay (Official Lyric Video).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Play Button -->
+  <button id="playMusicBtn">🎵 Play Our Song</button>
+
+  <!-- Content -->
+  <div class="container">
+    <div class="intro">
+      <h1>🎂 Happy Birthday, Mommy My!</h1>
+    </div>
+
+    <div class="message">
+      <h2>To my Ga, My Mahal 💖</h2>
+      <p>Hindi ako magsasabi ng patapos mahal —  
+         basta gawin ko lahat ng makakaya ko para mapasaya ka.  
+         Hanggang sa huli, basta't kasama ka mahal ko.</p>
+    </div>
+
+    <div class="grad-section">
+      <h2>🎁</h2>
+      <p>Ito munang maliit na paraan na ginagawa ko mahal,
+         para ipadama ko kung gaano kita kamahal 🥺💕</p>
+      <button onclick="showSurprise1()">🎀 Surprise 1</button>
+      <button onclick="showSurprise2()">🎀 Surprise 2</button>
+      <button onclick="showSurprise3()">💘 Final Surprise</button>
+    </div>
+
+    <div id="surprise1" class="hidden surprise-box fade-in">
+      <h3>🌹 Para sa’yo, Mahal</h3>
+      <p>Sa bawat ngiti mo, natutunaw lahat ng pagod ko.  
+         Happy Birthday, My Love!</p>
+      <img src="1.jpg" alt="Birthday Surprise 1">
+    </div>
+
+    <div id="surprise2" class="hidden surprise-box fade-in">
+      <h3>📸 Mga Alaala Natin</h3>
+      <p>Hindi man perfecto ang lahat, pero bawat sandali kasama ka  
+         ay isang biyaya na hindi ko ipagpapalit.</p>
+      <img src="2.jpg" alt="Memories with My">
+    </div>
+
+    <div id="surprise3" class="hidden surprise-box fade-in">
+      <h3>💞 Hanggang Dulo</h3>
+      <p>Hindi ko man masabi lahat ng nararamdaman ko,  
+         pero gagawin ko lahat ng makakaya ko...  
+         para mapasaya ka araw-araw, My.  
+         Mahal na mahal kita. 🫶</p>
+      <img src="3.jpg" alt="Final Surprise">
+    </div>
+  </div>
+
+  <div id="floating-hearts-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
